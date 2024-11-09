@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Selenium</title>
+  </head>
+  <body>
+       <form autocomplete="off" target="_blank" novalidate>
+      <fieldset>
+        <legend>RegisterForm</legend>
+        <table>
+          <tr>
+            <td><label for="name">Name:</label></td>
+            <td>
+              <input
+ autofocus
+                type="text"
+                id="name"
+                name="name"
+                class="123 456 789 nametxt"
+                placeholder="Enter your name"
+                required
+                value="Tillu Radhika"
+               
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="123 456 789 emailtxt"
+                placeholder="Enter your email"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="password">Password:</label></td>
+            <td>
+              <input type="password" id="password" name="password"   class="123 456 789 pswtxt" placeholder="Enter your Password" required />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="mobile">Mobile.no:</label></td>
+            <td>
+              <input
+                type="tel"
+                id="mobile"
+                name="mobile"
+                class="123 456 789 mbltxt" 
+   placeholder="Enter your Mobile No "
+               
+                maxlength="10"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="dob">DOB:</label></td>
+            <td><input type="datetime-local" name="dob" /></td>
+          </tr>
+
+          <tr>
+            <td><label>Gender:</label></td>
+            <td>
+              <input
+                type="radio"
+                name="gender"
+                id="male"
+                value="male"
+                placeholder="male"
+                checked
+              />
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="female" value="female" />
+              <label for="female">Female</label>
+              <input type="radio" name="gender" id="others" value="others" />
+              <label for="others">Others</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="places">Places:</label></td>
+            <td>
+              <input
+                type="checkbox"
+                id="goa"
+                name="places"
+                value="goa"
+                checked
+              />
+              <label for="goa">GOA</label>
+              <input type="checkbox" id="manali" name="places" value="manali" />
+              <label for="manali">Manali</label>
+              <input
+                type="checkbox"
+                id="bangalore"
+                name="places"
+                value="bangalore"
+              />
+              <label for="bangalore">Bangalore</label>
+              <input
+                type="checkbox"
+                id="Kerala"
+                name="places"
+                value="kerala"
+                disabled
+              />
+              <label for="Kerala">Kerala</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="country">Country:</label></td>
+            <td>
+              <select name="country1">
+                <option value="ind">INDIA</option>
+                <option value="aus">AUSTRALIA</option>
+                <option value="usa">USA</option>
+                <option value="cnd">CANADA</option>
+                <option value="swiss">SWITZERLAND</option>
+              </select>
+              <select name="country2" multiple>
+                <option value="ind">INDIA</option>
+                <option value="aus">AUSTRALIA</option>
+                <option value="usa">USA</option>
+                <option value="cnd">CANADA</option>
+                <option value="swiss">SWITZERLAND</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="feedback">Feedback:</label></td>
+            <td>
+              <textarea
+                id="feedback"
+                cols="100"
+                rows="10"
+                name="feedback"
+                placeholder="Enter feedback"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="photo">Upload your ID:</label></td>
+            <td><input type="file" name="photo" /></td>
+          </tr>
+          <tr>
+            <td>
+                <input id="reg" type="submit" value="Register" />
+            </td>
+            <td><a href="https://demowebshop.tricentis.com/">Contact Us</a></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
